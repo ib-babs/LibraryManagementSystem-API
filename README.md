@@ -4,7 +4,6 @@ Library Management System (LMS) API provides a comprehensive platform for managi
 
 ## Table of Contents
 
-- [Prerquisites](#prerequisites)
 - [Features](#features)
 - [Technologies](#technologies)
 - [Setup](#setup)
@@ -12,9 +11,6 @@ Library Management System (LMS) API provides a comprehensive platform for managi
 - [API Endpoints](#api-endpoints)
 - [Examples](#examples)
 
-
-## Prerequisites
-Before running this project, ensure you have set the `SECRET_KEY` environment variable for JWT. Additionally, configure the database connection string in `appsettings.json`, and then run the database migration and update commands:
 
 ```sh
 dotnet ef migrations add InitialCreate

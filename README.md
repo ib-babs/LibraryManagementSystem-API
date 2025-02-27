@@ -12,12 +12,6 @@ Library Management System (LMS) API provides a comprehensive platform for managi
 - [Examples](#examples)
 
 
-```sh
-dotnet ef migrations add InitialCreate
-dotnet ef database update
-```
-
-
 ## Features
 
 - Manage books (add, update, delete, and retrieve books)
